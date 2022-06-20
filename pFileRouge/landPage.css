@@ -1,0 +1,797 @@
+#logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#navbar {
+    padding-top: 30px;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    margin-bottom: 100px;
+}
+
+
+
+.btn {
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+    width: 120px;
+    height: 50px;
+}
+
+nav li a {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20PX;
+}
+
+#btn2 {
+    background-color: #5627ff;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    border-radius: 10px;
+}
+#btn2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+#btn2:hover {
+    background-color: transparent;
+    border-color: #5627ff !important;
+    border-style: solid;
+    border-width: 2px;
+    color: #5627ff !important;
+
+}
+#btn2 a:hover{
+    color: #5627ff;
+}
+
+#btn1 
+{
+    background-color: transparent;
+    border-color: #5627ff !important;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bold;
+    color: #5627ff;
+    font-family: 'Poppins';
+    border-radius: 10px;
+}
+#btn1 a
+{
+    text-decoration: none;
+    font-family: 'Raleway'; 
+    color: #5627ff;   
+    font-size: 18px;
+}
+
+#btn1 a:hover{
+    color: #FFFFFF;
+}
+
+#btn1:hover {
+    background-color: #5627ff;
+    outline: none;
+    font-weight: bold;
+    color: white;
+}
+
+#navbarScroll ul {
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbarScroll ul li {
+    margin-left: 30px;
+}
+
+#btn3:hover {
+    background-color: white;
+    box-shadow: 0px 15px 20px #8765f5;
+    color: #8A69F8;
+    transform: translateY(-7px);
+}
+#btn3 a{
+    color: white;
+    text-decoration: none;
+}
+#btn3 a:hover{
+    color: #8765f5;
+    text-decoration: none;
+}
+
+/* main first parte */
+/* 002 */
+
+
+
+.content {
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+#bigtitl {
+    color: #8765f5;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+#bigtitl {
+    animation: fadeInRight 2s ease-in-out;
+}
+
+@keyframes fadeInRight {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#paragr1 {
+    font-size: 18px;
+    margin-bottom: 45px;
+    width: 90%;
+}
+
+#heroimage {
+    margin-left: 0px;
+    width: 110%;
+    height: 95%;
+    margin-bottom: 80px !important;
+    margin-top: -20px;
+}
+#heroimage{
+    animation-delay: .3s !important;
+}
+
+@keyframes anime {
+    100%{
+        
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+        box-shadow: 0 40px 10px -18px rgba(0, 0, 0, 0.2),0 40px 16px -12px rgba(0, 0, 0, 0.2);
+    }
+}
+
+#flower {
+    width: 130px;
+}
+
+#btn3 {
+    width: 250px;
+    height: 60px;
+    background: #8A69F8;
+    border-radius: 0px !important;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+#hamburger,
+span {
+    color: #8A69F8;
+}
+
+.imgLogo img {
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img22,
+#img23 {
+    margin-top: 20px;
+}
+
+/* #logosimg{
+      margin-left: 60px;
+      margin-right: 40px;
+  } */
+#approuv {
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: bold;
+    color: #8A69F8;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* First Section background */
+
+#fstSection {
+    background: linear-gradient(270.59deg, #F6E3FF 0.49%, rgba(246, 227, 255, 0) 99.49%);
+}
+
+#logosimg {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+
+}
+
+#fm6 img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+
+/* THOSE IS SOLUTIONS */
+
+
+#linkes {
+    display: none;
+}
+
+.workcopy {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+#worktitle {
+    font-size: 24px;
+    color: #8A69F8;
+    margin-top: 40px;
+}
+
+#worktitle2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    color: #000000 !important;
+}
+
+#solutions {
+    width: 75%;
+    background: #8A69F8;
+    border-radius: 15px;
+    padding: 30px;
+    height: 40%;
+
+}
+
+.chifres {
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+.lttres {
+    color: #E9D93D;
+    font-size: 20px;
+}
+
+.imgIcon {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+
+
+/* Section of offers */
+#offerBut {
+    font-family: "Poppins";
+    border-color: #8A69F8 !important;
+    border-style: solid;
+    border-width: 3px;
+    width: 30%;
+    color: #8A69F8;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+#offarTit {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 26px;
+    color: #8A69F8;
+    margin-bottom: 20px;
+}
+
+#offerCont {
+    margin-top: 100px;
+
+}
+
+#offerPa {
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    color: var(--text-color);
+}
+
+.nav-item:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+
+/* gutters section */
+
+
+.gutters {
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+.gutters:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    background-position: right center;
+}
+
+#srvConte {
+    width: 85%;
+    margin-bottom: 10%;
+}
+
+.colIcon {
+    width: 40%;
+
+}
+
+.colIcon3 {
+    width: 40%;
+}
+
+
+.gutters a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.gutters a span {
+    margin-left: 20px;
+    color: black !important;
+}
+
+.gutters a img {
+    width: 20%;
+}
+
+.gutters a img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+#offerPa {
+    margin-bottom: 40px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.floats {
+    float: right;
+}
+
+.icnstr {
+    color: white;
+    background: #3B00FF;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 10px;
+    height: 50PX;
+
+}
+
+
+/* section of Pourquoi les entreprises se tournent vers FLANCE */
+#carte1 {
+    background: #F6E3FF;
+    border-radius: 14px;
+    width: 57%;
+    margin-right: 0px;
+    padding: 40px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin-right: 3%;
+}
+
+.crt1ico {
+    margin-right: 7%;
+}
+
+#carte1 h3 {
+    width: 80%;
+    font-weight: bold;
+    color: #3B00FF;
+    margin-bottom: 40px;
+    font-size: 38px;
+}
+
+#carte1 p {
+    width: 120% !important;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#carte1 h4 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#lsticon {
+    width: 48px;
+    text-align: center;
+}
+
+.parts {
+    margin-bottom: 20px;
+}
+
+#sectiwhy {
+    margin-top: 60px;
+}
+
+#sndcart {
+    background: #8A69F8;
+    border-radius: 10px;
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+#sndcart h4,
+h3 {
+    color: white;
+}
+
+#sndcart h3 {
+
+    font-weight: bold;
+}
+
+#trttitle {
+    font-size: 38px;
+}
+
+#frtttl {
+    text-align: end;
+    width: 80%;
+    padding-left: 20%;
+    margin-bottom: 20%;
+    margin-top: 15%;
+
+}
+
+#cltpro {
+    float: right;
+}
+
+#sndcart h4 {
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+#sndcart h5 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 40%;
+}
+
+#sndcart img {
+    width: 40px !important;
+
+}
+
+#illusprs {
+    width: 35%;
+
+    position: absolute;
+    float: right !important;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+#sectiwhy {
+    margin-bottom: 100Px;
+}
+
+#smesection {
+    font-family: 'Raleway';
+}
+
+#smesection img {
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+}
+
+#sndparts {
+    background: #F7BEFC;
+    border-radius: 0px 20px 20px 0px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#divone {
+    margin-bottom: 40%;
+}
+
+hr {
+    border: 2px solid whitesmoke;
+}
+
+#sndparts h4 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#sndparts p {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+#sndparts h6 {
+    font-size: 25px;
+    color: #14534C;
+}
+
+#sndparts h5 {
+    font-size: 25px;
+}
+
+.wilthecolo {
+    color: white;
+}
+
+.wilthecolo span {
+    color: white;
+}
+
+#btn10 {
+    background: #FFFFFF;
+    border-radius: 24px;
+    width: 50%;
+    font-weight: 700;
+    font-size: 13px;
+    color: #14534C;
+    margin-bottom: 10%;
+    top: 5%;
+}
+#btn10 a{
+    text-decoration: none;
+    color: #8765f5;
+    font-weight: bold;
+    font-size: 15px;
+}
+#btn10 a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+#imagerev {
+    width: 50%;
+}
+
+
+/*  */
+/*  */
+
+#reviews img {
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+#reviews {
+    background: #D7CDF7;
+    padding: 3%;
+    margin-top: 10%;
+
+
+}
+
+#reviews h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #3B00FF;
+}
+
+.rvsImg {
+    margin-top: 15px;
+}
+
+.cloks {
+    margin: 0px;
+}
+
+#btn10:hover {
+    background-color: #8A69F8;
+    box-shadow: 0px 15px 20px #8765f5;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+
+#rvspara {
+    margin-top: 10%;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 43px;
+
+    color: #14534C;
+}
+
+#reviews a {
+    color: white;
+    background: #8A69F8;
+    width: 5%;
+    height: 15%;
+    margin: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+}
+
+
+/* Last section */
+/* 077 */
+
+#centred {
+    text-align: center;
+    align-items: center;
+    background-image: url(images/peaples.png);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+}
+
+#serch {
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+
+}
+
+#serch input {
+    border-radius: 10px 0px 0px 10px !important;
+    height: 85%;
+    box-shadow: 0px 4px 15px #C6B6FC;
+}
+
+#centred h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    color: #8A69F8;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#serch button {
+    background: #3B00FF;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0px 4px 15px #C6B6FC;
+    margin-left: -330%;
+}
+
+#serch button i {
+    color: white;
+}
+
+
+/* Footer style  */
+/* Footer */
+
+footer {
+    background: #000000;
+    margin-top: 7%;
+    height: 470px;
+    font-family: 'Poppins' !important;
+    padding-top: 20PX;
+    font-weight: bold;
+}
+
+
+
+.tittle5 {
+    font-family: 'Poppins' !important;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+
+}
+
+footer ul li {
+    margin-bottom: 20px;
+}
+
+#copywritting {
+    margin-top: 1%;
+}
+
+.logofoter {
+    margin-top: 40%;
+}
+
+#reseau {
+    color: white !important;
+
+}
+
+#smicons {
+    font-size: 20px;
+    margin-right: 6%;
+}
+
+#smpara {
+    margin-left: 6%;
+}
+
+#fotersnd {
+    margin-top: 2%;
+}
+
+
+#solicodersLogo {
+    background-image: url('https://clickup.com/landing/images/join-companies/bg__with-dotted.svg') !important;
+    background-size: 50%;
+    height: 140px;
+}
+
+.navLI{
+    color: white !important;
+}
